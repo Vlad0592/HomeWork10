@@ -16,20 +16,21 @@ public class Human {
         return this.yearOfBirth;
     }
 
-    public String getName() {
+    public String getJob() {
         return this.job;
     }
 
     @Override
     public String toString() {
-        return " Привет! Меня зовут " + name + " Я из города " + town + "   мне  " + yearOfBirth + "  Будем знакомы! ";
+        return " Привет! Меня зовут " + name + " Я из города " + town + "   мне  " + yearOfBirth + " Я работаю на должности. "+ job + " Будем знакомы! ";
     }
 
-    public Human(String name1, String town1, int yearOfBirth1) {
+    public Human(String name1, String town1, int yearOfBirth1, String job1) {
         name = name1;
         town = town1;
         yearOfBirth = yearOfBirth1;
         job = job1;
+
 
 
     }

@@ -23,10 +23,10 @@ public class Main {
     public static Human[] human = new Human[4];
 
     public static void main(String[] args) {
-        Human e = new Human("Максим", "Минск", 35);
-        Human e2 = new Human("Аня", " Москва", 29);
-        Human e3 = new Human("Катя", " Калининград", 28);
-        Human e4 = new Human("Артем", " Москва", 27);
+        Human e = new Human("Максим", "Минск", 35," Бренд-менеджером ");
+        Human e2 = new Human("Аня", " Москва", 29, " Методистом образовательных программ ");
+        Human e3 = new Human("Катя", " Калининград", 28, " Продакт-менеджером ");
+        Human e4 = new Human("Артем", " Москва", 27, " Директором по развитию бизнеса ");
         human[0] = e;
         human[1] = e2;
         human[2] = e3;
