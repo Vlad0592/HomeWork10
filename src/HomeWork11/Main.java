@@ -1,3 +1,5 @@
+package HomeWork11;
+
 public class Main {
 
     public static String resultFio(Human[] human) {
@@ -23,7 +25,7 @@ public class Main {
     public static Human[] human = new Human[4];
 
     public static void main(String[] args) {
-        Human e = new Human("Максим", "Минск", 35," Бренд-менеджером ");
+        Human e = new Human(null, "Минск", 35," Бренд-менеджером ");
         Human e2 = new Human("Аня", " Москва", 29, " Методистом образовательных программ ");
         Human e3 = new Human("Катя", " Калининград", 28, " Продакт-менеджером ");
         Human e4 = new Human("Артем", " Москва", 27, " Директором по развитию бизнеса ");

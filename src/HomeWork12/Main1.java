@@ -3,6 +3,8 @@ package HomeWork12;
 import HomeWork11.Human;
 import HomeWork11.Main;
 
+import java.time.LocalDate;
+
 public class Main1 {
 
     public static String resultAllCarsDatails(Car[] car) {
@@ -16,7 +18,7 @@ public class Main1 {
 
     public static void main(String[] args) {
 
-        Car e = new Car(" Lada. ", " Grande. ", 1.7, " желтого цвета. ", 2015, " Россия. ");
+        Car e = new Car(" Lada. ", " Grande. ", 1.7, " желтого цвета. ", LocalDate.now().getYear(), " Россия. ");
         Car e1 = new Car(" Audi. ", " A8 50 L TDI. ", 3.0, " черный цвета. ", 2020, " Германия. ");
         Car e2 = new Car(" BMW. ", " Z8. ", 3.0, " черного цвета. ", 2021, " Германия. ");
         Car e3 = new Car(" Kia. ", " Sportage 4 поколение. ", 2.4, " красный цвета. ", 2018, " Южной Корее. ");
