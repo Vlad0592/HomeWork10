@@ -7,6 +7,7 @@ public class Human {
     private int yearOfBirth;
     private String town;
     private String job;
+    //ffgjfg
 
     public String getName() {
         return this.name;

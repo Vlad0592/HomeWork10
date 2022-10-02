@@ -6,7 +6,7 @@ public class Main {
 
         String result = human[0].getName();
         for (int i = 1; i < human.length; i++) {
-
+//ffgfgfg
 
             System.out.println(human[i].getName());
 
