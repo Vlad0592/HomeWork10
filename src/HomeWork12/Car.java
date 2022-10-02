@@ -2,7 +2,7 @@ package HomeWork12;
 
 import java.time.LocalDate;
 
-public class Car {
+public class Car extends Transport {
 
     public static class Key {
         private final boolean disStart;
@@ -120,7 +120,7 @@ public class Car {
                Key key,
                Insurance insurance) {
 
-        //super(brand, model, productionYear, productionCountry, color, 0, "Топлво");
+        super(brand, model, productionYear, productionCountry, color, 0, "Топлво");
 
         this.engineVolume = engineVolume;
         if (gearBox == null) {
@@ -229,10 +229,10 @@ public class Car {
         this.insurance = insurance;
     }
 
-    //@Override
-    //public void refill() {
-    //    System.out.println("Топливо "+getFuel());
-    //}
+    @Override
+    public void refill() {
+        System.out.println("Топливо "+getFuel());
+    }
 
     public boolean isSummerTyres() {
         return tiresWinOrSum;
